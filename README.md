@@ -1,5 +1,6 @@
 # Adonis API application
-legacy.adonisjs.com/docs/4.1
+legacy.adonisjs.com/docs/4.1/about
+knex.js
 
 * npm i -g @adonisjs/cli
 
@@ -135,6 +136,8 @@ const aceProviders = [
   'adonis-acl/providers/CommandsProvider',
   'adonis-bumblebee/providers/CommandsProvider'
 ]
+
+* adonis make:migration Category
 
 
 This is the boilerplate for creating an API server in AdonisJs, it comes pre-configured with.
