@@ -1,4 +1,5 @@
 # Adonis API application
+legacy.adonisjs.com/docs/4.1
 
 * npm i -g @adonisjs/cli
 
@@ -112,8 +113,28 @@ const globalMiddleware = [
 adonis acl:setup
 
 
+* adonis install adonis-bumblebee
+start/app.js  -> neste aquivo adiciona a linha:  'adonis-bumblebee/providers/BumblebeeProvider'
 
-
+const providers = [
+  '@adonisjs/framework/providers/AppProvider',
+  '@adonisjs/auth/providers/AuthProvider',
+  '@adonisjs/bodyparser/providers/BodyParserProvider',
+  '@adonisjs/cors/providers/CorsProvider',
+  '@adonisjs/lucid/providers/LucidProvider',
+  '@adonisjs/mail/providers/MailProvider',
+  '@adonisjs/validator/providers/ValidatorProvider',
+  'adonis-acl/providers/AclProvider',
+  '@adonisjs/websocket/providers/WsProvider',
+  'adonis-bumblebee/providers/BumblebeeProvider'
+]
+// AQUI ADICIONA ESTA ÚLTIMA LINHA -> 'adonis-bumblebee/providers/BumblebeeProvider'
+const aceProviders = [
+  '@adonisjs/lucid/providers/MigrationsProvider',
+  'adonis-acl/providers/AclProvider',
+  'adonis-acl/providers/CommandsProvider',
+  'adonis-bumblebee/providers/CommandsProvider'
+]
 
 
 This is the boilerplate for creating an API server in AdonisJs, it comes pre-configured with.

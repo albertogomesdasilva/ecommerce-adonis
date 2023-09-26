@@ -36,6 +36,7 @@ const aceProviders = [
   '@adonisjs/lucid/providers/MigrationsProvider',
   'adonis-acl/providers/AclProvider',
   'adonis-acl/providers/CommandsProvider',
+  'adonis-bumblebee/providers/CommandsProvider'
 ]
 
 /*
