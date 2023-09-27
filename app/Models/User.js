@@ -56,11 +56,8 @@ class User extends Model {
   }
 
   coupons() {
-    return this.belongsToMany('App/Models/coupon')
+    return this.belongsToMany('App/Models/Coupon')
   }
-
-
-
 }
 
 module.exports = User
