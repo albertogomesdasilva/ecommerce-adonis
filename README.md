@@ -1,4 +1,5 @@
 # Adonis API application
+# AULA 17 User Model Ecommerce real time com Node.js e Adonis Framework - UDEMY
 legacy.adonisjs.com/docs/4.1/about
 knex.js
 
