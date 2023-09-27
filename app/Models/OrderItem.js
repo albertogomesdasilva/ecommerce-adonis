@@ -5,6 +5,12 @@ const Model = use('Model')
 
 class OrderItem extends Model {
 
+    static boot() {
+        super.boot()
+
+        this.addHook('beforeSave', 'OrderItemHook.updateSubtotal')
+    }
+
     /**
      * 
      * Informa que a tabela não tem as duas colunas timestamps (created_at e updated_at)
