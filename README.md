@@ -7,6 +7,8 @@ knex.js
 
 * adonis --help
 
+### adonis repl -> linha de comando de teste do adonis, um console de comandos
+
 (* npm i -g node-gyp -> esse não sei pra que é)
 
 * adonis new ecommerce --api-only
