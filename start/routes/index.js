@@ -18,7 +18,17 @@ const Route = use('Route')
 
 Route.get('/', () => {
   return { greeting: 'Hello world in JSON' }
-})
+}).as('home')
 
-Route.post('users', 'UserController.store')
-.validator('User')
+
+/**
+ * Importa as rotas de autenticação
+ */
+
+require('./auth')
+
+/**
+ * Importa as rotas de admin
+*/
+
+require('./admin')
