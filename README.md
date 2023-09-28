@@ -1,5 +1,7 @@
 # Adonis API application
-# AULA 31 ROTAS DO CLIENTE
+# AULA 32 AUTENTICAÇÃO DO SISTEMA - Cadastro de Usuários
+
+
 legacy.adonisjs.com/docs/4.1/about
 knex.js
 
