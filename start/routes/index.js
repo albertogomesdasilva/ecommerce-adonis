@@ -17,7 +17,7 @@
 const Route = use('Route')
 
 Route.get('/', () => {
-  return { greeting: 'Hello world in JSON' }
+  return { greeting: 'Hello world in JSON !!!' }
 }).as('home')
 
 
@@ -33,8 +33,3 @@ require('./auth')
 
 require('./admin')
 
-/**
- * Importa as rotas de Clientes
-*/
-
-require('./index copy')

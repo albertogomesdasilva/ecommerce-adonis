@@ -12,8 +12,8 @@
             "runtimeExecutable": "npm",
             "runtimeArgs": [ "run", "dev" ],
             // "port": 9229
-             "internalConsoleOptions": "neverOpen",  // ASSIM NÃO EXIBE O DEBUG NO cmd CONSOLE DE DEPURAÇÃO
-           // "internalConsoleOptions": "openOnSessionStart" // ASSIM EXIBE O DEBUG NO cmd CONSOLE DE DEPURAÇÃO
+           //  "internalConsoleOptions": "neverOpen",  // ASSIM NÃO EXIBE O DEBUG NO cmd CONSOLE DE DEPURAÇÃO
+            "internalConsoleOptions": "openOnSessionStart" // ASSIM EXIBE O DEBUG NO cmd CONSOLE DE DEPURAÇÃO
         }
     ]
 }

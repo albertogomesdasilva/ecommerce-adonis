@@ -31,7 +31,7 @@ Factory.blueprint('App/Models/User', faker => {
 
 Factory.blueprint('App/Models/Category', faker => {
     return {
-        title: faker.first({ full: true }),
+        title: faker.county({ full: true }),
         description: faker.sentence()
     }
 })
