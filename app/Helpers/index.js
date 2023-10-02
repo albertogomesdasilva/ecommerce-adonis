@@ -19,7 +19,7 @@ const str_random = async (length = 40) => {
     if(len < length) {
         let size = lenght - len
         let bytes = await crypto.randomBytes(size)
-        let buffer =  new Buffer(bytes)
+        let buffer =  Buffer.from(bytes) // Depreciado
         string += buffer.toString('base64').replace(/[^a-zA-Z0-9]/g, '').substr(0, size)
     }
     return string
