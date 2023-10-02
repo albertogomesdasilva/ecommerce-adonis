@@ -1,6 +1,8 @@
-# Adonis API application
-# AULA 32 AUTENTICAÇÃO DO SISTEMA - Cadastro de Usuários
+https://yarnpkg.com/lang/en/docs/migrating-from-npm
 
+
+# Adonis API application
+# AULA 52 CRIANDO HELPERS - String Aleatória
 
 legacy.adonisjs.com/docs/4.1/about
 knex.js
