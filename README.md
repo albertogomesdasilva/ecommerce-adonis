@@ -2,7 +2,7 @@ https://yarnpkg.com/lang/en/docs/migrating-from-npm
 
 
 # Adonis API application
-# AULA 52 CRIANDO HELPERS - String Aleatória
+# AULA 56 CRUD DE IMAGENS - Listagem de Imagens
 
 legacy.adonisjs.com/docs/4.1/about
 knex.js
