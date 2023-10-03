@@ -2,7 +2,7 @@ https://yarnpkg.com/lang/en/docs/migrating-from-npm
 
 
 # Adonis API application
-# AULA 62 GERENCIANDO CUPONS - Listagem de Cupons
+# AULA 74 IMPLEMENTAÇÃO DOS PEDIDOS - Hooks de Desconto- Parte 1
 
 legacy.adonisjs.com/docs/4.1/about
 knex.js
