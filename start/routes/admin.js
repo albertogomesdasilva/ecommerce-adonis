@@ -23,6 +23,10 @@ Route.group(function () {
     
   /** Order resource routes */
 
+    Route.post('orders/:id/discount', 'OrderController.applyDiscount')  // Esta rota tem que ficar antes das resource
+
+    Route.delete('order/:id/discount', 'OrderController.removeDiscount')
+
     Route.resource('orders', 'OrderController').apiOnly()
   
     /** Image resource routes */

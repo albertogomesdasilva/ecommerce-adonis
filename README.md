@@ -2,7 +2,7 @@ https://yarnpkg.com/lang/en/docs/migrating-from-npm
 
 
 # Adonis API application
-# AULA 74 IMPLEMENTAÇÃO DOS PEDIDOS - Hooks de Desconto- Parte 1
+# AULA 78 SEGURANÇA - ACL e Rotas
 
 legacy.adonisjs.com/docs/4.1/about
 knex.js
