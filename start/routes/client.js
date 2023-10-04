@@ -24,7 +24,6 @@ Route.group(function () {
 
     Route.put('orders/:id', 'OrderController.put')
 
-
   })
     .prefix('v1')
     .namespace('Client')  
