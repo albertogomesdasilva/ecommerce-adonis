@@ -14,13 +14,15 @@ const Route = use('Route')
  */
 
 Route.group(function () {
-    Route.get('register', 'AuthController.register')
+    Route.post('register', 'AuthController.register')
     .as('auth.register')
     .middleware(['guest'])
+    .validator('Auth/Register')
 
     Route.post('login', 'AuthController.login')
     .as('auth.login')
     .middleware(['guest'])
+    .validator('Auth/Login')
 
     Route.post('refresh', 'AuthController.refresh')
     .as('auth.refresh')

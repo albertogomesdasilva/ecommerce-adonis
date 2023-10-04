@@ -9,7 +9,11 @@ const Route = use('Route')
 Route.group(function () {
   /**Categories resource routes */
 
-    Route.resource('categories', 'CategoryController').apiOnly()
+    Route.resource('categories', 'CategoryController')
+    .apiOnly().validator(new Map([
+      [['categories.store'], ['Admin/StoreCategory']],
+      [['categories.update'], ['Admin/StoreCategory']]
+    ]))
 
 
   /**Products resource routes */
@@ -28,6 +32,11 @@ Route.group(function () {
     Route.delete('order/:id/discount', 'OrderController.removeDiscount')
 
     Route.resource('orders', 'OrderController').apiOnly()
+      .validator(new Map(
+        [
+          [['orders.store'], ['Admin/StoreOrder']]
+        ]
+      ))
   
     /** Image resource routes */
 
@@ -37,6 +46,12 @@ Route.group(function () {
     /** User resource routes */
 
     Route.resource('user', 'UserController').apiOnly()
+        .validator(
+          new Map([
+          [['users.store'], ['Admin/StoreUser']],
+          [['users.update'], ['Admin/StoreUser']]
+        ])
+        )
 
     
 

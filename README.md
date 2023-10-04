@@ -2,7 +2,7 @@ https://yarnpkg.com/lang/en/docs/migrating-from-npm
 
 
 # Adonis API application
-# AULA 78 SEGURANÇA - ACL e Rotas
+# AULA 88 USABILIDADE - Corrigindo Bugs
 
 legacy.adonisjs.com/docs/4.1/about
 knex.js
@@ -37,7 +37,7 @@ DB_PASSWORD=123456
 DB_DATABASE=adonisecommerce
 HASH_DRIVER=bcrypt
 
-
+* adonis route:list | grep StoryCategory
 * config/database.js
 
 connection: Env.get('DB_CONNECTION', 'mysql'),
